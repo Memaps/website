@@ -1,6 +1,6 @@
 ---
-title: About
+title: درباره‌ما
 type: about
 ---
 
-This is the about page.
+صفحه درباره ما

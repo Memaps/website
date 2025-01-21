@@ -1,5 +1,7 @@
 # Hugo configuration file
-title: My Site
+title: می‌مپس
+
+
 
 # import hextra as module
 module:
@@ -16,41 +18,70 @@ markup:
   highlight:
     noClasses: false
 
+defaultContentLanguage: fa
+languages:
+  fa:
+    languageName: فارسی
+    languageCode: fa
+    languageDirection: rtl
+    weight: 2
+    title: می‌مپس
+
 menu:
   main:
-    - name: Docs
+    - name: مستندات
       pageRef: /docs
-      weight: 1
-    - name: About
-      pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
       weight: 3
-    - name: Search
+
+    - name: بلاگ
+      pageRef: /blog
+      weight: 2
+
+    - name: خدمات
+      pageRef: /services
+      weight: 1
+
+    - name: درباره ما
+      pageRef: /about
+      weight: 4
+
+    - name: جست‌جو
       weight: 4
       params:
         type: search
-    - name: GitHub
+
+    - name: گیت‌هاب
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/Memaps"
       params:
         icon: github
-    - name: Twitter
+    - name: تلگرام
       weight: 6
-      url: "https://twitter.com/"
+      url: "https://ir_openstreetmap.t.me"
       params:
         icon: x-twitter
+
+    - name: حامیان
+      weight: 4
+      url: /sponsers
+
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/memaps/website/edit/main/content"
+
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      link: /
+      width: 40
+      height: 20
