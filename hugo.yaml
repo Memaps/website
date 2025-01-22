@@ -55,11 +55,12 @@ menu:
       url: "https://github.com/Memaps"
       params:
         icon: github
+
     - name: تلگرام
       weight: 6
       url: "https://ir_openstreetmap.t.me"
       params:
-        icon: x-twitter
+        icon: mail
 
     - name: حامیان
       weight: 4
@@ -73,7 +74,7 @@ params:
 
   footer:
     displayCopyright: true
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
     enable: true
