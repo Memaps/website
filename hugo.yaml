@@ -1,6 +1,8 @@
 # Hugo configuration file
-title: می‌مپس
+title: "می‌مپس"
+baseURL: "site.memaps.ir"
 
+enableRobotsTXT: true
 
 
 # import hextra as module
@@ -33,7 +35,8 @@ menu:
       pageRef: /docs
       weight: 3
 
-    - name: بلاگ
+    - identifier: blog
+      name: بلاگ
       pageRef: /blog
       weight: 2
 
@@ -72,6 +75,17 @@ params:
     displayTitle: true
     displayLogo: true
 
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  logo:
+    path: images/logo.svg
+    dark: images/logo-dark.svg
+    link: /
+    width: 40
+    height: 20
+
   footer:
     displayCopyright: true
     displayPoweredBy: false
@@ -80,9 +94,8 @@ params:
     enable: true
     base: "https://github.com/memaps/website/edit/main/content"
 
-    logo:
-      path: images/logo.svg
-      dark: images/logo-dark.svg
-      link: /
-      width: 40
-      height: 20
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
