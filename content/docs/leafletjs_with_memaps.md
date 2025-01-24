@@ -9,13 +9,13 @@ title: استفاده از کتابخانه leafletjs
 
 ## هدر صفحه
 اگر قصد دارید از فایل های هاست شده در سرویس های توزیع محتوا استفاده نمایید این دو فایل  که شامل کتابخانه و فایل های استایل است را به هد قالب HTML خود اضافه کنید
-`
+```html
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-`
+```
 سپس در بخش body صفحه به شرح زیر کد ها را قرار دهید
 
-`
+```html
 <div id="map" style="height:89.5%;"></div>
     <script>
         //<![CDATA[
@@ -31,4 +31,4 @@ title: استفاده از کتابخانه leafletjs
         var hash = L.hash(map)
         //]]>
     </script>
-`
+```
