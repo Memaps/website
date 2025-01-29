@@ -31,6 +31,10 @@ languages:
 
 menu:
   main:
+    - name: نقشه
+      pageRef: https://memaps.ir
+      weight: 0
+
     - name: مستندات
       pageRef: /docs
       weight: 3
