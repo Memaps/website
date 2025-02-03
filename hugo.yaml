@@ -103,3 +103,10 @@ params:
       enable: true
       # hover | always
       display: hover
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
