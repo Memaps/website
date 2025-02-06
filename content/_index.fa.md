@@ -13,9 +13,12 @@ MeMaps یک پلتفرم نقشه آنلاین متن‌باز و رایگان �
   {{< card link="docs" title="مستندات" icon="document" >}}
   {{< card link="about" title="درباره‌ما" icon="user" >}}
 {{< /cards >}}
+
+------ 
+
 {{< card
         link="https://memaps.ir"
         title="نقشه می‌مپس"
         image="/images/memaps-map.png"
-        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+        imageStyle="object-fit:cover;"
   >}}
