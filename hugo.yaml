@@ -65,9 +65,9 @@ menu:
 
     - name: تلگرام
       weight: 6
-      url: "https://ir_openstreetmap.t.me"
+      url: "https://osmUsersGroup.t.me"
       params:
-        icon: mail
+        icon: telegram
 
     - name: حامیان
       weight: 4
